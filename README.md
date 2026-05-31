@@ -192,7 +192,7 @@ If you're learning Python, I hope this saves you hours of confusion and gives yo
 If you find this helpful, feel free to **star ⭐ the repo** — it motivates me to keep sharing what I learn!
 
 **Md Sourav Oyaj**
-- GitHub: [@captrox](https://github.com/captrox)
+- GitHub: [@captrox](https://github.com/mr-captrox)
 
 ---
 
