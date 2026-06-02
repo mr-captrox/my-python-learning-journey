@@ -23,6 +23,8 @@ I built this as a structured reference for myself and anyone else starting out w
 | [`01_python_basics.py`](./01_python_basics.py) | Output, Variables, Data Types, Casting, Strings, Booleans, Operators, if/elif/else, match/case, While Loops, For Loops, Functions, Lambda, Recursion, Input, Try/Except, Math, JSON | ~1000 |
 | [`02_python_collections.py`](./02_python_collections.py) | Lists, List Comprehension, Tuples, Sets, Dictionaries, Dict Comprehension, Practical Class Example | ~500 |
 | [`03_python_oop.py`](./03_python_oop.py) | Classes & Objects, `__init__` & `self`, Class vs Instance Attributes, `__str__`, Inheritance, Polymorphism, Encapsulation, Operator Overloading, Inner Classes | ~745 |
+| [`04_advanced_oop.py`](./04_advanced_oop.py) | `__repr__` vs `__str__`, `@staticmethod`, `@classmethod` | ~472 |
+| [`05_advanced_functions.py`](./05_advanced_functions.py) | `raise`, `try/except/finally`, `while True` + `try/except`, `map()`, `filter()`, `reduce()`, Walrus Operator `:=`, `*args`, `**kwargs` | ~831 |
 
 ---
 
@@ -72,6 +74,27 @@ I built this as a structured reference for myself and anyone else starting out w
 ├── Section 8  — Operator Overloading (__add__, __sub__, __eq__, ...)
 ├── Section 9  — Inner / Nested Classes
 └── Section 10 — Full Capstone: all OOP concepts together
+
+04_advanced_oop.py
+│
+├── Section 1  — __str__ vs __repr__
+├── Section 2  — @staticmethod
+├── Section 3  — @classmethod
+└── Section 4  — Full Employee Class (All Together)
+
+05_advanced_functions.py
+│
+├── Section 1  — raise (Manually Throwing Exceptions)
+├── Section 2  — try / except / finally (Advanced)
+├── Section 3  — while True + try/except (Safe Input Loop)
+├── Section 4  — map() (Apply function to every item)
+├── Section 5  — filter() (Keep only matching items)
+├── Section 6  — reduce() (Combine all items into one)
+├── Section 7  — Walrus Operator := (Python 3.8+)
+├── Section 8  — *args (Variable Positional Arguments)
+├── Section 9  — **kwargs (Variable Keyword Arguments)
+├── Section 10 — *args + **kwargs (Combined)
+└── Bonus      — All Functional Tools Side by Side
 ```
 
 ---
@@ -147,6 +170,14 @@ Each section ends with tasks. Here's a taste of what you'll practice:
 - Overload `+`, `-`, `*`, `==` for a custom `Point` class
 - Final capstone: build a complete **Animal Shelter** system from scratch
 
+**Advanced Topics**
+- Build robust input validation loops with `try/except` and `raise`
+- Clean up data using functional tools: `map()`, `filter()`, and `reduce()`
+- Use the Walrus operator `:=` for cleaner and more efficient code
+- Create flexible functions with `*args` and `**kwargs`
+- Understand the difference between `__str__` and `__repr__`
+- Use `@classmethod` as alternative constructors and `@staticmethod` for utilities
+
 ---
 
 ## 📌 Quick Reference Card
@@ -198,5 +229,5 @@ If you find this helpful, feel free to **star ⭐ the repo** — it motivates me
 
 <p align="center">
   <b>Happy Coding! 🐍</b><br>
-  <i>Start with File 1 → master the basics → move to Collections → conquer OOP</i>
+  <i>Start with File 1 → master the basics → move to Collections → conquer OOP → explore Advanced Topics</i>
 </p>
