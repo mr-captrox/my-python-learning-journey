@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey — From Zero to OOP
+# 🐍 Python Learning Journey — From Zero to Infinity
 
 > *"Every expert was once a beginner. Every pro was once an amateur."*
 
