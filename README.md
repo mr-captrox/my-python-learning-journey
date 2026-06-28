@@ -25,6 +25,7 @@ I built this as a structured reference for myself and anyone else starting out w
 | [`03_python_oop.py`](./03_python_oop.py) | Classes & Objects, `__init__` & `self`, Class vs Instance Attributes, `__str__`, Inheritance, Polymorphism, Encapsulation, Operator Overloading, Inner Classes | ~745 |
 | [`04_advanced_oop.py`](./04_advanced_oop.py) | `__repr__` vs `__str__`, `@staticmethod`, `@classmethod` | ~472 |
 | [`05_advanced_functions.py`](./05_advanced_functions.py) | `raise`, `try/except/finally`, `while True` + `try/except`, `map()`, `filter()`, `reduce()`, Walrus Operator `:=`, `*args`, `**kwargs` | ~831 |
+| [`06_python_file_handling_and_modules.py`](./06_python_file_handling_and_modules.py) | File Handling (`open`, `read`, `write`, `append`, `with`), `os` module, `shutil` module, `argparse` module, `re` (Regex) module | ~788 |
 
 ---
 
@@ -95,6 +96,20 @@ I built this as a structured reference for myself and anyone else starting out w
 ├── Section 9  — **kwargs (Variable Keyword Arguments)
 ├── Section 10 — *args + **kwargs (Combined)
 └── Bonus      — All Functional Tools Side by Side
+
+06_python_file_handling_and_modules.py
+│
+├── Section 1  — File Modes Reference
+├── Section 2  — Writing Files (create & write)
+├── Section 3  — Reading Files
+├── Section 4  — Appending to Files
+├── Section 5  — The with Statement (Context Manager)
+├── Section 6  — Error Handling with Files
+├── Section 7  — os Module (Operating System Interface)
+├── Section 8  — shutil Module (Shell Utilities)
+├── Section 9  — argparse Module (Command-Line Arguments)
+├── Section 10 — re Module (Regular Expressions)
+└── Section 11 — Final Cleanup
 ```
 
 ---
@@ -178,6 +193,12 @@ Each section ends with tasks. Here's a taste of what you'll practice:
 - Understand the difference between `__str__` and `__repr__`
 - Use `@classmethod` as alternative constructors and `@staticmethod` for utilities
 
+**File Handling & Modules**
+- Read, write, and safely append to files using context managers (`with`)
+- Automate file and folder management using `os` and `shutil`
+- Build a fully functional Command Line Interface (CLI) tool with `argparse`
+- Master text manipulation and validation with Regular Expressions (`re`)
+
 ---
 
 ## 📌 Quick Reference Card
@@ -229,5 +250,5 @@ If you find this helpful, feel free to **star ⭐ the repo** — it motivates me
 
 <p align="center">
   <b>Happy Coding! 🐍</b><br>
-  <i>Start with File 1 → master the basics → move to Collections → conquer OOP → explore Advanced Topics</i>
+  <i>Start with File 1 → master the basics → move to Collections → conquer OOP → explore Advanced Topics → dive into Modules & Regex</i>
 </p>
