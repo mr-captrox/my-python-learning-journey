@@ -26,6 +26,7 @@ I built this as a structured reference for myself and anyone else starting out w
 | [`04_advanced_oop.py`](./04_advanced_oop.py) | `__repr__` vs `__str__`, `@staticmethod`, `@classmethod` | ~472 |
 | [`05_advanced_functions.py`](./05_advanced_functions.py) | `raise`, `try/except/finally`, `while True` + `try/except`, `map()`, `filter()`, `reduce()`, Walrus Operator `:=`, `*args`, `**kwargs` | ~831 |
 | [`06_python_file_handling_and_modules.py`](./06_python_file_handling_and_modules.py) | File Handling (`open`, `read`, `write`, `append`, `with`), `os` module, `shutil` module, `argparse` module, `re` (Regex) module | ~788 |
+| [`07_numpy.py`](./07_numpy.py) | NumPy Basics, Image Processing & Computer Vision with Arrays | ~621 |
 
 ---
 
@@ -110,6 +111,11 @@ I built this as a structured reference for myself and anyone else starting out w
 ├── Section 9  — argparse Module (Command-Line Arguments)
 ├── Section 10 — re Module (Regular Expressions)
 └── Section 11 — Final Cleanup
+
+07_numpy.py
+│
+├── PART 1  — NumPy Basics (Indexing, Slicing, Masking, Reshape, ufuncs)
+└── PART 2  — Image Processing (Channels, Grayscale, Thresholding, Batching)
 ```
 
 ---
@@ -199,6 +205,11 @@ Each section ends with tasks. Here's a taste of what you'll practice:
 - Build a fully functional Command Line Interface (CLI) tool with `argparse`
 - Master text manipulation and validation with Regular Expressions (`re`)
 
+**Data Science & Image Processing**
+- Master `numpy` arrays, multi-dimensional slicing, and boolean masking
+- Perform manual image processing (splitting channels, grayscale conversion, data augmentation)
+- Build batches of images ready for Machine Learning pipelines
+
 ---
 
 ## 📌 Quick Reference Card
@@ -250,5 +261,5 @@ If you find this helpful, feel free to **star ⭐ the repo** — it motivates me
 
 <p align="center">
   <b>Happy Coding! 🐍</b><br>
-  <i>Start with File 1 → master the basics → move to Collections → conquer OOP → explore Advanced Topics → dive into Modules & Regex</i>
+  <i>Start with File 1 → master the basics → move to Collections → conquer OOP → explore Advanced Topics → dive into Modules & Regex → master NumPy & Image Processing</i>
 </p>
